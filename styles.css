@@ -1,0 +1,70 @@
+body{
+  background-color: rgb(33,33,33);
+}
+.whole-project{
+  display: flex;
+  flex: 1;
+  gap: 2%;
+  justify-content: center;
+}
+
+.card1, .card2, .card3{
+  background-color: white;
+  width: 21%;
+  border: none;
+  margin-top: 10%;
+  padding: 50px 35px;
+}
+
+.card1-image{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 150px;
+  border-radius: 50%;
+}
+
+.card1, .card2, .card3 h2,h3,p{
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.h2{
+  margin-top: 30px;
+}
+
+.h3{
+  margin-top: -15px;
+  color: rgb(153, 153, 153);
+}
+
+.p{
+  font-size: 20px;
+}
+
+.socialMediaLogos{
+  position: relative;
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  gap: 12px;
+
+}
+.social-media{
+  cursor: pointer;
+  width: 33px;
+  background: none;
+}
+
+.social-media:hover{
+  cursor: pointer;
+  width: 38px;
+  background: none;
+  transition: 0.2s ease-out;
+}
+
+
+
+
+
+
